@@ -1,7 +1,7 @@
 # Kitronik blocks for micro:bit
 
 Blocks that support [Kitronik kits and shields for the micro:bit](https://www.kitronik.co.uk/microbit.html)
-This package is for the [Motor Driver Board] (https://www.kitronik.co.uk/5620-motor-driver-board-for-the-bbc-microbit-v2.html)
+This package is for the [Motor Driver Board](https://www.kitronik.co.uk/5620-motor-driver-board-for-the-bbc-microbit-v2.html)
 
 ## Motors
 
