@@ -1,4 +1,8 @@
-namespace kitronik {
+/**
+ * Blocks for driving the Kitronik Motor Driver Board
+ */
+//% weight=100 color=#00A654 icon="\uf1b9" block="Kitronik Motor"
+namespace kitronik_motor_driver {
 	/************************************************************************************************************************************************
 	* micro:bit motor driver blocks 
 	************************************************************************************************************************************************/
@@ -27,7 +31,6 @@ namespace kitronik {
 	 * @param dir   which direction to go
 	 * @param speed how fast to spin the motor
      */
-    //% subcategory=MotorDriver
     //% blockId=kitronik_motordriver_motor_on
     //% block="%motor|on direction %dir|speed %speed"
     //% speed.min=0 speed.max=100
@@ -68,7 +71,6 @@ namespace kitronik {
      * Turns off the motor specified by eMotors
      * @param motor :which motor to turn off
      */
-    //%subcategory=MotorDriver
     //% blockId=kitronik_motordriver_motor_off
     //%block="turn off %motor"
     export function motorOff(motor: Motors): void {
