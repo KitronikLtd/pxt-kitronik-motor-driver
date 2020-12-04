@@ -8,7 +8,9 @@
     },
     "files": [
         "README.md",
-        "motors.ts"
+        "motors.ts",
+        "_locales/nl/pxt-kitronik-motor-driver-jsdoc-strings.json",
+        "_locales/nl/pxt-kitronik-motor-driver-strings.json"
     ],
     "testFiles": [
         "tests.ts"

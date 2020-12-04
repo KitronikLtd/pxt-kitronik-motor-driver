@@ -1,0 +1,10 @@
+{
+  "kitronik_motor_driver.MotorDirection.Forward|block": "vooruit",
+  "kitronik_motor_driver.MotorDirection.Reverse|block": "achteruit",
+  "kitronik_motor_driver.Motors.Motor1|block": "motor 1",
+  "kitronik_motor_driver.Motors.Motor2|block": "motor 2",
+  "kitronik_motor_driver.motorOff|block": "zet %motor|uit",
+  "kitronik_motor_driver.motorOn|block": "zet %motor|aan met richting  %dir|snelheid %speed",
+  "kitronik_motor_driver|block": "Twee motoren",
+  "{id:category}Kitronik_motor_driver": "Kitronik_motor_driver"
+}

@@ -1,0 +1,10 @@
+{
+  "kitronik_motor_driver.MotorDirection.Forward|block": "forward",
+  "kitronik_motor_driver.MotorDirection.Reverse|block": "reverse",
+  "kitronik_motor_driver.Motors.Motor1|block": "motor 1",
+  "kitronik_motor_driver.Motors.Motor2|block": "motor 2",
+  "kitronik_motor_driver.motorOff|block": "turn off %motor",
+  "kitronik_motor_driver.motorOn|block": "%motor|on direction %dir|speed %speed",
+  "kitronik_motor_driver|block": "Motor Driver",
+  "{id:category}Kitronik_motor_driver": "Kitronik_motor_driver"
+}

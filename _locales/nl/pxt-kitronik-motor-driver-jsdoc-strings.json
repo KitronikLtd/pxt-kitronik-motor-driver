@@ -1,0 +1,9 @@
+{
+  "kitronik_motor_driver": "Blokken voor het aansturen van twee motoren met het Motor Driver Board van Kitronik.",
+  "kitronik_motor_driver.MotorDirection": "Draairichting van de motor",
+  "kitronik_motor_driver.motorOff": "Zet de motor met het gekozen nummer uit.",
+  "kitronik_motor_driver.motorOff|param|motor": "Motor die aan moet. Keuze uit 1 en 2.",
+  "kitronik_motor_driver.motorOn": "Laat de gekozen motor draaien in de gekozen richting en met de ingestelde snelheid.",
+  "kitronik_motor_driver.motorOn|param|dir": "Draairichting van de motor",
+  "kitronik_motor_driver.motorOn|param|speed": "Hoe snel moet de motor ronddraaien."
+}

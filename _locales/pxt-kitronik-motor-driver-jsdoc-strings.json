@@ -1,0 +1,9 @@
+{
+  "kitronik_motor_driver": "Blocks for driving the Kitronik Motor Driver Board",
+  "kitronik_motor_driver.MotorDirection": "**********************************************************************************************************************************************\r\nmicro:bit motor driver blocks \r\n**********************************************************************************************************************************************",
+  "kitronik_motor_driver.motorOff": "Turns off the motor specified by eMotors",
+  "kitronik_motor_driver.motorOff|param|motor": ":which motor to turn off",
+  "kitronik_motor_driver.motorOn": "Turns on motor specified by eMotors in the direction specified\r\nby eDirection, at the requested speed \r\n* @param motor which motor to turn on",
+  "kitronik_motor_driver.motorOn|param|dir": "which direction to go",
+  "kitronik_motor_driver.motorOn|param|speed": "how fast to spin the motor"
+}
