@@ -1,0 +1,26 @@
+{
+    "name": "kitronik-motor-driver-jacdac",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-kitronik-motor-driver": "github:pelikhan/pxt-kitronik-motor-driver",
+        "jacdac": "github:microsoft/pxt-jacdac#v0.9.5",
+        "jacdac-motor": "github:microsoft/pxt-jacdac/motor#v0.9.5"
+    },
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.1.22",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
