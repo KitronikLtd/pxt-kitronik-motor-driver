@@ -6,8 +6,8 @@
         "radio": "*",
         "microphone": "*",
         "pxt-kitronik-motor-driver": "github:pelikhan/pxt-kitronik-motor-driver",
-        "jacdac": "github:microsoft/pxt-jacdac#v0.10.2",
-        "jacdac-motor": "github:microsoft/pxt-jacdac/motor#v0.10.2"
+        "jacdac": "github:microsoft/pxt-jacdac#v0.10.3",
+        "jacdac-motor": "github:microsoft/pxt-jacdac/motor#v0.10.3"
     },
     "files": [
         "main.ts",
