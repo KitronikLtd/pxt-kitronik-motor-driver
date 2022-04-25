@@ -6,8 +6,8 @@
         "radio": "*",
         "microphone": "*",
         "pxt-kitronik-motor-driver": "github:pelikhan/pxt-kitronik-motor-driver",
-        "jacdac": "github:microsoft/pxt-jacdac#v0.9.5",
-        "jacdac-motor": "github:microsoft/pxt-jacdac/motor#v0.9.5"
+        "jacdac": "github:microsoft/pxt-jacdac#v0.10.2",
+        "jacdac-motor": "github:microsoft/pxt-jacdac/motor#v0.10.2"
     },
     "files": [
         "main.ts",
@@ -17,7 +17,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "4.1.22",
+        "target": "4.1.24",
         "targetId": "microbit"
     },
     "supportedTargets": [

@@ -6,13 +6,13 @@ namespace modules {
      * Motor 1 client
      */
     //% fixedInstance whenUsed block="kitronik motor1"
-    export const kitronikMotor1 = new MotorClient("kitronik motor1?device=self")
+    export const kitronikMotor1 = new MotorClient("kitronik motor1?dev=self&srvo=0")
 
     /**
      * Motor 2 client
      */
     //% fixedInstance whenUsed block="kitronik motor2"
-    export const kitronikMotor2 = new MotorClient("kitronik motor2?device=self")
+    export const kitronikMotor2 = new MotorClient("kitronik motor2?dev=self&srvo=1")
 }
 
 namespace servers {
@@ -31,7 +31,7 @@ namespace servers {
 
         handlePacket(pkt: jacdac.JDPacket) {
             this.handleRegValue(pkt, jacdac.MotorReg.Reversible, jacdac.MotorRegPack.Reversible, true)
-            this.speed = this.handleRegValue(pkt, jacdac.MotorReg.Duty, jacdac.MotorRegPack.Duty, this.speed)
+            this.speed = this.handleRegValue(pkt, jacdac.MotorReg.Speed, jacdac.MotorRegPack.Speed, this.speed)
             this.enabled = this.handleRegBool(pkt, jacdac.MotorReg.Enabled, this.enabled)
 
             this.sync()

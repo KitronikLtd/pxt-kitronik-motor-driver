@@ -1,11 +1,8 @@
 let speed = 0
 let dv = 5
 forever(() => {
-    modules.kitronikMotor1.setEnabled(true)
-    modules.kitronikMotor2.setEnabled(true)
-
-    modules.kitronikMotor1.setDuty(speed)
-    modules.kitronikMotor2.setDuty(1 - speed)
+    modules.kitronikMotor1.run(speed)
+    modules.kitronikMotor2.run(1 - speed)
 
     speed += dv
     if (speed > 100) {
