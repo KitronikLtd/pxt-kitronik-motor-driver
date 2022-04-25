@@ -2,7 +2,7 @@ let speed = 0
 let dv = 5
 forever(() => {
     modules.kitronikMotor1.run(speed)
-    modules.kitronikMotor2.run(1 - speed)
+    modules.kitronikMotor2.run(- speed)
 
     speed += dv
     if (speed > 100) {
