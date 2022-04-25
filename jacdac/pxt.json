@@ -1,6 +1,6 @@
 {
     "name": "kitronik-motor-driver-jacdac",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "dependencies": {
         "core": "*",
         "radio": "*",
