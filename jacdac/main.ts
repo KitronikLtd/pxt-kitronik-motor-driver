@@ -47,8 +47,8 @@ namespace servers {
             }
         }
     }
-    jacdac.productIdentifier = 0x31ee311d
     function start() {
+        jacdac.productIdentifier = 0x31ee311d
         jacdac.startSelfServers(() => [
             new MotorServer(kitronik_motor_driver.Motors.Motor1),
             new MotorServer(kitronik_motor_driver.Motors.Motor2)
