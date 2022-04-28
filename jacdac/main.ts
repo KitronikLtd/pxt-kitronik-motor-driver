@@ -49,6 +49,7 @@ namespace servers {
     }
     function start() {
         jacdac.productIdentifier = 0x31ee311d
+        jacdac.deviceDescription = "Kitronik Motor Driver"
         jacdac.startSelfServers(() => [
             new MotorServer(kitronik_motor_driver.Motors.Motor1),
             new MotorServer(kitronik_motor_driver.Motors.Motor2)
