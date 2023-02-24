@@ -1,6 +1,6 @@
 {
     "name": "pxt-kitronik-motor-driver",
-    "version": "0.0.6",
+    "version": "0.0.8",
     "description": "Blocks to simplify using Kitronik products in PXT",
     "license": "MIT",
     "dependencies": {
